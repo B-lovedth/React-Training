@@ -1,0 +1,8 @@
+
+.section-body{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(124, 121, 121);
+}
