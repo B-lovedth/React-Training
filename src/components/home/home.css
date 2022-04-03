@@ -1,9 +1,0 @@
-.home-page{
-    background-color: #333;
-    color: #ffffff;
-    height: 400px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
