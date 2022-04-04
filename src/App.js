@@ -1,11 +1,12 @@
-import Home from "./components/home/Home";
-
-
+import './App.css'
 
 function App() {
+  const myString = `App Component`
   return (
-   <div>
-     <Home/>
+   <div className="App">
+     <div className="content">
+       <h1>{ myString }</h1>
+     </div>
     </div> 
   );
 }
