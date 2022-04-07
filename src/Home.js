@@ -13,7 +13,7 @@ const Home = () => {
     }
     useEffect(() => {
 
-      console.log(' use effect ran', );
+      console.log(' use effect ran',);
     })
   return (
     <div className="Home">
