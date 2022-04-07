@@ -12,7 +12,8 @@ const Home = () => {
       setBlogs(newBlogs)
     }
     useEffect(() => {
-      
+
+      console.log(' use effect ran', );
     })
   return (
     <div className="Home">
