@@ -8,12 +8,13 @@ const Home = () => {
       setBlogs(newBlogs)
     }
     useEffect(() => {
-
-      console.log(' use effect ran',);
-    })
+      fetch("http://localhost:8000/blogs")
+      .then(res => res.json())
+      .then(data=>console.log(data))
+    },[] )
   return (
     <div className="Home">
-       <Bloglist blogs={blogs} title="My Blogs" handleDelete={handleDelete}/>
+       {/* <Bloglist blogs={blogs} title="My Blogs" handleDelete={handleDelete}/> */}
     </div>
   )
 }
