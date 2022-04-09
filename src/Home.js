@@ -2,19 +2,20 @@ import React, { useState,useEffect } from 'react'
 import Bloglist from './Bloglist'
 
 const Home = () => {
+    const url =   'http://localhost:8000/blogs'
     const [blogs,setBlogs] = useState()
     const handleDelete = (id) => {
       const newBlogs = blogs.filter((blog)=> blog.id !== id)
       setBlogs(newBlogs)
     }
     useEffect(() => {
-      fetch("http://localhost:8000/blogs")
+      fetch(url)
       .then(res => res.json())
-      .then(data=>console.log(data))
+      .then(data => setBlogs(data))
     },[] )
   return (
     <div className="Home">
-       {/* <Bloglist blogs={blogs} title="My Blogs" handleDelete={handleDelete}/> */}
+       {blogs ? <Bloglist blogs={blogs} title="My Blogs" handleDelete={handleDelete}/>:<div>Great</div>}
     </div>
   )
 }
