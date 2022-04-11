@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Bloglist = ({ blogs,title,handleDelete }) => {
+const Bloglist = ({ blogs,title }) => {
   
 
   return (
