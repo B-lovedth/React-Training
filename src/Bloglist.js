@@ -10,7 +10,7 @@ const Bloglist = ({ blogs,title,handleDelete }) => {
             <div className="blog-preveiw" key={myblog.id}>
                 <h2>{myblog.title}</h2>
                 <p>Written by { myblog.author }</p>
-                <button onClick={()=>{handleDelete(myblog.id) }}>Delete Blog {myblog.id}</button>
+                <button onClick>Delete Blog {myblog.id}</button>
             </div>
         ))}
     </div>
