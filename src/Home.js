@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react'
 import Bloglist from './Bloglist'
 
 const Home = () => {
-    const url = 'http://localhost:8000/blogs'
+    const url = 'http://localhost:8000/blogss'
     const [blogs,setBlogs] = useState()
     const [isPending,setIsPending] = useState(true)
     useEffect(() => {
@@ -13,7 +13,7 @@ const Home = () => {
         setIsPending(false)
       }
       ).catch(err=>{
-        console.log(err)
+         console.log(err)
       })
     },[]
     )
