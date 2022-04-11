@@ -7,7 +7,11 @@ const Home = () => {
     const [isPending,setIsPending] = useState(true)
     useEffect(() => {
       fetch(url)
-      .then(res => res.json())
+      .then(res => { 
+        if(res.ok){ 
+       return res.json()}
+       
+      })
       .then(data => {
         setBlogs(data)
         setIsPending(false)
