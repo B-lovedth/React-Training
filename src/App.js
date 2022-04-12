@@ -8,7 +8,11 @@ function App() {
       <div className="App">   
        <Navbar/>
      <div className="content">
-       <Home/>
+       <Switch>
+         <Route path='/'>
+            <Home/>
+         </Route>
+       </Switch>
      </div>
     </div>
     </Router>
