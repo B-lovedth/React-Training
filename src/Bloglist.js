@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Bloglist = ({ blogs,title }) => {
-  
 
   return (
     <div className="blog-list">
