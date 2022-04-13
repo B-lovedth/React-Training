@@ -5,16 +5,16 @@ import Navbar from './Navbar';
 function App() {
   return (
     <Router>
-      <div className="App">   
-       <Navbar/>
-     <div className="content">
-       <Switch>
-         <Route path='/home'>
-            <Home/>
-         </Route>
-       </Switch>
-     </div>
-    </div>
+        <div className="App">   
+        <Navbar/>
+      <div className="content">
+        <Switch>
+          <Route path='/home'>
+              <Home/>
+          </Route>
+        </Switch>
+      </div>
+      </div>
     </Router>
     
   );
