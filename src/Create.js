@@ -4,7 +4,9 @@ import { useState } from 'react'
 const Create = () => {
   const {title,setTitle} = useState('')
   const {body,setBody} = useState('')
-  
+  const {author,setAuthor} = useState('')
+
+
   return (
     <div className="create">
       <h2>Add a New Blog</h2>
