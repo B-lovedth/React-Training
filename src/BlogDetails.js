@@ -4,10 +4,10 @@ import useFetch from './useFetch';
 
 function BlogDetails() {
     const { id } = useParams();
-    const { data, error, isPending } = useFetch( ' http://localhost:8000/blogs/' + id)
+    const { data:blog , error, isPending } = useFetch( ' http://localhost:8000/blogs/' + id)
     return (
         <div className="blog-details">
-            <h2>Blog details - { id }</h2>
+            {isPending && <div>{ error }</div>}
         </div>
     )
 }
