@@ -39,10 +39,14 @@
     border-bottom: 1px solid #fafafa;
 }
 .blog-preveiw:hover{
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 .blog-preveiw h2{
     font-size: 20px;
     color: #f1356d;
     margin-bottom: 8px;
+}
+.blog-preveiw a{
+    text-decoration: none;
 }
