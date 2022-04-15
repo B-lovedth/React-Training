@@ -2,15 +2,26 @@ import { useState } from 'react'
 
 function Create() {
   const [ title, setTitle ] = useState('')
-  const [body, setBody] = useState('')
+  const [body, setBody] = useState('') 
   const [author, setAuthor]  = useState('mario')
-  console.log(author)
+  
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const blog = { title, body, author }
+    
+   fetch('http://localhost:8000/blogs',{
+     method: 'POST',
+     headers: { "Content-Type": "application/json" },
+     body: JSON.stringify(blog)
+   }).then(()=>{ 
+    console.log('new blog added')})
+  }
 
 
   return (
     <div className="create">
       <h2>Add a New Blog</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label>Blog title:</label>
         <input
           type="text"
@@ -32,7 +43,7 @@ function Create() {
         </select>
         <button>Add blog</button>
       </form>
-      <p>{title}</p>
+      <p>{title}</p> 
       <p>{body}</p>
       <p>{author} is the author of this blog</p>
     </div>

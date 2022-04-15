@@ -1,17 +1,22 @@
 {
-    "blogs": [
-        {
-            "title":"My First Blog",
-            "body": "Why do we use it?\nit is a long established fact that a reader will be distracted",
-            "author":"soma",
-            "id":1
-        },
-        {
-            "title":"Opening Party",
-            "body": "Why do we use it?\nit is a long established fact that a reader will be distracted",
-            "author":"neko-chan",
-            "id":2
-        }
-
-    ]
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "Why do we use it?\nit is a long established fact that a reader will be distracted",
+      "author": "soma",
+      "id": 1
+    },
+    {
+      "title": "Opening Party",
+      "body": "Why do we use it?\nit is a long established fact that a reader will be distracted",
+      "author": "neko-chan",
+      "id": 2
+    },
+    {
+      "title": "great",
+      "body": "soma",
+      "author": "mario",
+      "id": 3
+    }
+  ]
 }
