@@ -4,7 +4,7 @@ function Create() {
   const [ title, setTitle ] = useState('')
   const [body, setBody] = useState('') 
   const [author, setAuthor]  = useState('mario')
-  const [isPending,setIsPending] = useState('false')  
+  const [isPending,setIsPending] = useState(false)  
   
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -46,7 +46,7 @@ function Create() {
           <option value="soma">soma</option>
         </select>
         {!isPending && <button>Add blog</button>}
-        {isPending && <button>Adding blog...</button>}
+        {isPending && <button disabled>Adding blog...</button>}
       </form>
       <p>{title}</p> 
       <p>{body}</p>
