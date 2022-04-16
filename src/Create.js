@@ -4,7 +4,7 @@ function Create() {
   const [ title, setTitle ] = useState('')
   const [body, setBody] = useState('') 
   const [author, setAuthor]  = useState('mario')
-  const [isPending,setIsPending] = useState(false)  
+  const [isPending,setIsPending] = useState('false')  
   
   const handleSubmit = (e) => {
     e.preventDefault()
