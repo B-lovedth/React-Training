@@ -21,7 +21,7 @@ function Create() {
    }).then(()=>{ 
     console.log('new blog added')
     setIsPending(false)
-    history.push('http://localhost:8000/blogs')
+    history.push('/')
 })
   }
 
