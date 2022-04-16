@@ -17,8 +17,9 @@ function Create() {
      headers: { "Content-Type": "application/json" },
      body: JSON.stringify(blog)
    }).then(()=>{ 
-    console.log('new blog added')})
-    setIsPending(false)
+    console.log('new blog added')
+      setIsPending(false)
+})
   }
 
 
@@ -48,9 +49,6 @@ function Create() {
         {!isPending && <button>Add blog</button>}
         {isPending && <button disabled>Adding blog...</button>}
       </form>
-      <p>{title}</p> 
-      <p>{body}</p>
-      <p>{author} is the author of this blog</p>
     </div>
   )
 }
