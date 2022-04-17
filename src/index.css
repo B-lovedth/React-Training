@@ -106,4 +106,8 @@
 }
 .not-found{
     font-size: 30px;
+    text-align: center;
+}
+.not-found a{
+    
 }
