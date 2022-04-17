@@ -14,7 +14,7 @@
 }
 
 .navbar h1{
-    color: #f1356d;
+    color: #bb0000;
 }
 .navbar .links{
     margin-left: auto;
@@ -25,7 +25,7 @@
     padding: 6px;
 }
 .navbar a:hover{
-    color: #f1356d;
+    color: #bb0000;
 }
 .content{
      max-width: 600px;
@@ -44,7 +44,7 @@
 }
 .blog-preveiw h2{
     font-size: 20px;
-    color: #f1356d;
+    color: #bb0000;
     margin-bottom: 8px;
 }
 .blog-preveiw a{
@@ -53,14 +53,14 @@
 
 .blog-details h2{
     font-size: 20px;
-    color: #f1356d;
+    color: #bb0000;
     margin-bottom: 10px;
 }
 .blog-details div{
     margin: 20px 0px;
 }
 .blog-details button{
-    background: #f1356d;
+    background: #bb0000;
     color: #fff;
     border: 0;
     padding:8px;
@@ -79,7 +79,7 @@
 }
 .create h2{
     font-size: 20px;
-    color:#f1356d;
+    color:#bb0000;
     margin-bottom: 30px;
 }
 .create input,
@@ -93,7 +93,7 @@
     display: block;
 }
 .create button{
-    background: #f1356d;
+    background: #bb0000;
     color:#fff;
     border: 0;
     padding: 8px;
@@ -108,6 +108,13 @@
     font-size: 30px;
     text-align: center;
 }
+.not-found p{
+    margin-bottom: 40px;
+}
 .not-found a{
-    
+    text-decoration: none;
+    font-family: monospace;
+}
+.not-found a:hover{
+    color: #bb0000;
 }
