@@ -23,6 +23,7 @@
     margin-left: 16px;
     text-decoration: none;
     padding: 6px;
+    font-weight: bold;
 }
 .navbar a:hover{
     color: #bb0000;
@@ -112,7 +113,7 @@
     margin-bottom: 40px;
 }
 .not-found a{
-    text-decoration: none;
+    text-decoration:underline #bb0000;
     font-family: monospace;
 }
 .not-found a:hover{
