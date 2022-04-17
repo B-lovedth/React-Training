@@ -23,8 +23,8 @@ function BlogDetails() {
             {blog && (
                 <article>
                     <h2>{blog.title}</h2>
-                    <p>Written by {blog.author}</p>
                     <div>{ blog.body }</div>
+                    <p>Written by {blog.author}</p>
                     <button onClick={handleClick}>Delete blog</button>
                 </article>
             )}
