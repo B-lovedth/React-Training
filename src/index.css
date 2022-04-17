@@ -100,6 +100,10 @@
     border-radius:8px ;
     cursor:pointer;
 }
+.not-found h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
 .not-found{
-    
+    font-size: 30px;
 }
