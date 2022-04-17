@@ -40,8 +40,9 @@
     border-bottom: 1px solid #fafafa;
 }
 .blog-preveiw:hover{
-    border-left: 2px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-left: 2px solid #9d000047;
+    border-bottom: 2px solid #9d000047;
+    border-bottom-left-radius: 20px;
 }
 .blog-preveiw h2{
     font-size: 20px;
@@ -118,4 +119,7 @@
 }
 .not-found a:hover{
     color: #bb0000;
+}
+#author{
+    margin-bottom: 20px;
 }
