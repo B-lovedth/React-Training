@@ -15,6 +15,9 @@
 
 .navbar h1{
     color: #bb0000;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.9px;
 }
 .navbar .links{
     margin-left: auto;
@@ -26,7 +29,9 @@
     font-weight: bold;
 }
 .navbar a:hover{
-    color: #bb0000;
+    color: #ffffff;
+    background-color: #bb0000;
+    border-radius: 8px;
 }
 .content{
      max-width: 600px;
@@ -78,11 +83,14 @@
 .create label{
     text-align: left;
     display: block;
+    font-family: monospace;
+    font-size: 20px;
 }
 .create h2{
-    font-size: 20px;
+    font-size: 40px;
     color:#bb0000;
     margin-bottom: 30px;
+    letter-spacing: 1.9px;
 }
 .create input,
 .create textarea,
@@ -93,14 +101,18 @@
     border: 1px solid #ddd;
     box-sizing: border-box;
     display: block;
+    border-left: 2px solid #9d000047;
+    border-bottom: 2px solid #9d000047;
 }
 .create button{
     background: #bb0000;
     color:#fff;
     border: 0;
-    padding: 8px;
+    padding: 10px;
     border-radius:8px ;
     cursor:pointer;
+    font-size: 15px;
+    margin-top: 10px;
 }
 .not-found h2{
     font-size: 40px;
