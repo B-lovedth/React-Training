@@ -28,21 +28,21 @@ function Create() {
 
   return (
     <div className="create">
-      <h2>Add a New Blog</h2>
+      <h2>Add A New Article</h2>
       <form onSubmit={handleSubmit}>
-        <label>Blog title:</label>
+        <label>Article title:</label>
         <input
           type="text"
           required
           value={title}
           onChange={(e) => setTitle(e.target.value)} />
-        <label>Blog body:</label>
+        <label>Article body:</label>
         <textarea
           required
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
-        <label>Blog author:</label>
+        <label>Article author:</label>
         {/* <select
           value={author}
           onChange={(e) => setAuthor(e.target.value)}>
@@ -56,8 +56,8 @@ function Create() {
            placeholder='-Your Name-'
            onChange={(e) => setAuthor(e.target.value)}
         />
-        {!isPending && <button>Add blog</button>}
-        {isPending && <button disabled>Adding blog...</button>}
+        {!isPending && <button>Add article</button>}
+        {isPending && <button disabled>Adding article...</button>}
       </form>
     </div>
   )
