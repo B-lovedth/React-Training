@@ -25,7 +25,7 @@ function BlogDetails() {
                     <h2>{blog.title}</h2>
                     <div>{ blog.body }</div>
                     <p id='author'>Written by {blog.author}</p>
-                    <button onClick={handleClick}>Delete blog</button>
+                    <button onClick={handleClick}>Delete Article</button>
                 </article>
             )}
         </div>
