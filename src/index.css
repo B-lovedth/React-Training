@@ -59,7 +59,7 @@
 }
 
 .blog-details h2{
-    font-size: 25px;
+    font-size: 23px;
     color: #bb0000;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -76,6 +76,7 @@
     padding:8px;
     border-radius: 8px;
     cursor: pointer ;
+    font-weight: bold;
 }
 
 .create{
