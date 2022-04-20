@@ -64,7 +64,7 @@
     color: #bb0000;
     margin-bottom: 10px;
     text-transform: uppercase;
-    text-decoration:overline;
+    text-decoration:underline;
 }
 .blog-details div{
     margin: 20px 0px;
