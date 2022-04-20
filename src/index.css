@@ -53,6 +53,7 @@
     font-size: 20px;
     color: #bb0000;
     margin-bottom: 8px;
+    letter-spacing: 1.5px;
 }
 .blog-preveiw a{
     text-decoration: none;
@@ -138,4 +139,5 @@
 }
 #author{
     margin-bottom: 20px;
+    font-style: oblique;
 }
