@@ -69,6 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
- <h1>Hi there👋</h1>
+<h1>Hi there👋</h1>
 
-this repository is for my first completed react project based on net ninja's React tutorial,it consist of all the react components excluding the node modules of course.
+-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+-This repository is for my first completed react project based on net ninja's React tutorial,it consist of all the react components excluding the node modules of course.
